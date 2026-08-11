@@ -1,0 +1,12 @@
+name: train_random_forest
+channels: 
+  - conda-forge
+dependencies:
+  - python=3.8
+  - pip=21.0.1
+  -pip:
+    - mlflow
+    - wandb
+    - hydra-core
+    - pandas
+    - scikit-learn

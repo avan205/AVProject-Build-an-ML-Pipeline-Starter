@@ -30,7 +30,7 @@ def go(config: DictConfig):
 
     # Steps to execute
     steps_par = config['main']['steps']
-    active_steps = steps_par.split(",") if steps_par != "all" else _steps
+    active_steps = steps_par if steps_par != "all" else _steps
 
     # Move to a temporary directory
     with tempfile.TemporaryDirectory() as tmp_dir:
@@ -91,7 +91,18 @@ def go(config: DictConfig):
             ##################
             # Implement here #
             ##################
-            pass
+            _ = mlflow.run(
+                f"{config['main']['components_repository']}/train_val_test_split",
+                "main",
+                env_manager="local",
+                parameters={
+                    "input": "clean_sample.csv:latest",
+                    "test_size": config["modeling"]["test_size"],
+                    "random_seed": config["modeling"]["random_seed"],
+                    "stratify_by": "neighbourhood_group",
+                },
+            )
+            
 
         if "train_random_forest" in active_steps:
 
@@ -107,7 +118,21 @@ def go(config: DictConfig):
             # Implement here #
             ##################
 
-            pass
+            _ = mlflow.run(
+                f"./{config['main']['components_repository']}/train_random_forest",
+                "main",
+                env_manager="local",
+                parameters={
+                    "trainval_artifact": "trainval_data.csv:latest",
+                    "val_size": config["modeling"]["val_size"],
+                    "random_seed": config["modeling"]["random_seed"],
+                    "stratify_by": config["modeling"]["stratify_by"],
+                    "max_tfidf_features": config["modeling"]["max_tfidf_features"],
+                    "rf_config": rf_config,
+                    "output_artifact": "random_forest_export",
+            
+                 },
+             )
 
         if "test_regression_model" in active_steps:
 
