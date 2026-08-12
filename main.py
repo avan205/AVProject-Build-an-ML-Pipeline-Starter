@@ -131,8 +131,8 @@ def go(config: DictConfig):
                     "rf_config": rf_config,
                     "output_artifact": "random_forest_export",
             
-                 },
-             )
+                },
+            )
 
         if "test_regression_model" in active_steps:
 
