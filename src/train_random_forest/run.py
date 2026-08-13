@@ -100,7 +100,20 @@ def go(args):
         # YOUR CODE HERE
         sk_model=sk_pipe,
         path = "random_forest_dir",
-        input_example = X_train.iloc[:5]
+        input_example = X_train.iloc[:5],
+        serialization_format="pickle",
+        #serialization_format="cloudpickle",
+        #serialization_format="skops"
+        #skops_trusted_types=[
+            "__main__.delta_date_feature",
+            "numpy.dtype",
+            "numpy.reshape",
+            "sklearn.compose._column_transformer._RemainderColsList"
+        ]
+    )
+
+
+        ]
     )
     ######################################
 
