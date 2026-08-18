@@ -179,3 +179,51 @@ Please, make sure all steps are using **the same** python version and that you h
 ## License
 
 [License](LICENSE.txt)
+
+
+Project Links
+
+GitHub: https://github.com/avan205/AVProject-Build-an-ML-Pipeline-Starter
+
+W&B: https://wandb.ai/avan205-western-governors-university/nyc_airbnb
+
+
+Sources: 
+References
+
+Can someone explain what weights and biases are? (2023, July 23). DeepLearning.AI. https://community.deeplearning.ai/t/can-someone-explain-what-weights-and-biases-are/394280
+Chauhan, A. (2021, February 23). Random Forest Classifier and its hyperparameters. medium.com. Retrieved August 17, 2026, from https://medium.com/analytics-vidhya/random-forest-classifier-and-its-hyperparameters-8467bec755f6
+Contributors, P. (2023, January 1). Optimizing model parameters. https://docs.pytorch.org/tutorials/beginner/basics/optimization_tutorial.html
+GeeksforGeeks. (2024, July 19). mindepth and maxdepth in Linux find() command for limiting search to a specific directory. GeeksforGeeks. https://www.geeksforgeeks.org/linux-unix/mindepth-maxdepth-linux-find-command-limiting-search-specific-directory/
+GeeksforGeeks. (2025a, July 3). Hyperparameters of random forest classifier. GeeksforGeeks. https://geeksforgeeks.org/machine-learning/hyperparameters-of-random-forest-classifier/
+GeeksforGeeks. (2025b, July 23). How to Fix Git Error: There is No Tracking Information for the Current Branch. GeeksforGeeks. https://www.geeksforgeeks.org/git/how-to-fix-git-error-there-is-no-tracking-information-for-the-current-branch/#google_vignette
+GeeksforGeeks. (2026, May 2). Random Forest hyperparameter tuning in Python. GeeksforGeeks. https://www.geeksforgeeks.org/machine-learning/random-forest-hyperparameter-tuning-in-python/
+GitLab. (n.d.). What is YAML: Understanding the Basics. GitLab. https://about.gitlab.com/topics/devops/what-is-yaml/
+Hanson, J. (2015, November 5). What does the GREP command do? Ubuntu. Retrieved August 12, 2026, from https://askubuntu.com/questions/349523/what-does-the-grep-command-do
+Has anyone completed D501 - Machine Learning DevOps? (2023). reddit. https://www.reddit.com/r/WGUIT/comments/18rmgcb/has_anyone_completed_d501_machine_learning_devops/
+Kavlakoglu, E. (2025, November 20). What is random forest? IBM. Retrieved August 12, 2026, from https://www.ibm.com/think/topics/random-forest
+kedion. (2021, December 14). Managing machine learning lifecycles with MLFlow. medium.com. Retrieved August 12, 2026, from https://kedion.medium.com/managing-machine-learning-lifecycles-with-mlflow-d4ce3d91ee10
+Managing environments — conda 26.7.1.dev40 documentation. (n.d.). https://docs.conda.io/projects/conda/en/latest/user-guide/tasks/manage-environments.html
+Mandepudi, M. K. (2025, January 19). The Ultimate guide to parameters, hyperparameters, and hyperparameter tuning in machine learning. www.medium.com. Retrieved August 17, 2026, from https://blog.devgenius.io/the-ultimate-guide-to-parameters-hyperparameters-and-hyperparameter-tuning-in-machine-learning-aadeaf3d2438
+Mlflow. (n.d.). Releases · mlflow/mlflow. GitHub. https://github.com/mlflow/mlflow/releases
+MLFlow — open source AI platform for agents, LLMs & models. (n.d.). MLflow. https://mlflow.org/docs/latest/ml/model/dependencies/
+MLFlow on DataBricks | DataBricks on AWS. (2026, August 5). https://docs.databricks.com/aws/en/mlflow/
+Mondal, S. (2024, August 16). Understanding MAE, MSE, and RMSE: Key metrics in Machine Learning. medium.com. Retrieved August 18, 2026, from https://medium.com/@mondalsabbha/understanding-mae-mse-and-rmse-key-metrics-in-machine-learning-eeeff8bd1fac
+Multi-run | Hydra. (n.d.). https://hydra.cc/docs/tutorials/basic/running_your_app/multi-run/
+New York City Department of City Planning (DCP). (2026). New York City Borough boundary. https://s-media.nyc.gov/agencies/dcp/assets/files/pdf/data-tools/bytes/nybb_metadata.pdf
+Optuna - A hyperparameter optimization framework. (n.d.). Optuna. https://optuna.org/
+Patru, G. (2026, June 5). Git Detached Head - 3f7d516d-7076-49d1-9089-656dd3c5f971. Git Detached Head: What This Means and How to Recover. Retrieved August 18, 2026, from https://www.cloudbees.com/blog/git-detached-head
+PIP Install. (n.d.). https://docs.mantidproject.org/v6.9.0/concepts/PipInstall.html
+Python and Conda | High Performance Computing | Washington State University. (n.d.). https://hpc.wsu.edu/programmers-guide/python/
+Riad, A. (2025, July 22). Build a Production-Ready ML pipeline in 12 steps [Online forum post]. LinkedIn. https://www.linkedin.com/posts/riadanas_build-a-production-ready-ml-pipeline-in-12-activity-7353311174974705665-RG68
+Sharma, K. (2024, November 10). Mastering random forest hyperparameter tuning for enhanced machine learning models. www.medium.com. Retrieved August 17, 2026, from https://medium.com/@kalpit.sharma/mastering-random-forest-hyperparameter-tuning-for-enhanced-machine-learning-models-2d1a8c6c426f
+Shell programming with bash: by example, by counter-example. (n.d.). https://matt.might.net/articles/bash-by-example/
+The ML Engineering Guy. (2024, February 9). Hydra: An Advanced Configuration Management tool for ML/Python Code. Medium.com. Retrieved August 12, 2026, from https://medium.com/mlops-io/hydra-an-advanced-configuration-management-tool-for-ml-python-code-411169628477
+Udacity. (n.d.). GitHub - udacity/Project-Build-an-ML-Pipeline-Starter: This is a custom project for WGU, the original project repo is https://github.com/udacity/nd0821-c2-build-model-workflow-starter. GitHub. https://github.com/udacity/Project-Build-an-ML-Pipeline-Starter
+Udacity. (2026). Marvin AI 
+Understanding TF-IDF (Term Frequency-Inverse Document Frequency). (2026, July 2). Geeksforgeeks. Retrieved August 18, 2026, from https://www.geeksforgeeks.org/machine-learning/understanding-tf-idf-term-frequency-inverse-document-frequency/
+W3Schools.com. (n.d.-a). https://www.w3schools.com/bash/bash_commands.php
+W3Schools.com. (n.d.-b). https://www.w3schools.com/bash/bash_sed.php
+Weights and Biases in machine learning | H2O.ai Wiki. (n.d.). https://h2o.ai/wiki/weights-and-biases/
+What is YAML? (n.d.). https://www.redhat.com/en/topics/automation/what-is-yaml
+
