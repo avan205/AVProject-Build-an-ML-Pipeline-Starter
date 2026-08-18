@@ -8,6 +8,10 @@ import pandas as pd
 import wandb
 import tempfile
 from sklearn.model_selection import train_test_split
+
+import sys
+sys.path.insert(0, "..")
+
 from wandb_utils.log_artifact import log_artifact
 
 logging.basicConfig(level=logging.INFO, format="%(asctime)-15s %(message)s")
