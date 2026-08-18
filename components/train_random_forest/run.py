@@ -100,7 +100,8 @@ def go(args):
         # YOUR CODE HERE
         sk_model=sk_pipe,
         path = "random_forest_dir",
-        input_example = X_train.iloc[:5]
+        input_example = X_train.iloc[:5],
+        serialization_format="cloudpickle"
     )
     ######################################
 

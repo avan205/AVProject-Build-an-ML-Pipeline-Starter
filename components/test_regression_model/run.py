@@ -2,6 +2,11 @@
 """
 This step takes the best model, tagged with the "prod" tag, and tests it against the test dataset
 """
+import os
+import sys
+
+sys.path.insert(0, os.path.abspath(os.path.join(os.path.dirname(__file__), ".."))) #one levels below root
+
 import argparse
 import logging
 import wandb

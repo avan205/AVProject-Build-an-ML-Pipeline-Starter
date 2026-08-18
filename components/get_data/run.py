@@ -5,14 +5,17 @@ This script download a URL to a local destination
 import argparse
 import logging
 import os
+import sys
 
 import wandb
 
-from wandb_utils.log_artifact import log_artifact
+sys.path.insert(0, os.path.abspath(os.path.join(os.path.dirname(__file__), "..")))
+
 
 logging.basicConfig(level=logging.INFO, format="%(asctime)-15s %(message)s")
 logger = logging.getLogger()
 
+from wandb_utils.log_artifact import log_artifact
 
 def go(args):
 
